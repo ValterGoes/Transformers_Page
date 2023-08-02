@@ -1,0 +1,27 @@
+@media (max-width: 449px){
+    .downloadDesc{
+        
+        button{
+            border: 2px solid white;
+            margin:10px 0px;
+        }
+    }
+}
+
+@media (max-width: 405px){
+    .logoPc{
+        width: 180px;
+        margin-top: 15px;
+    }
+    .footer{
+        font-size: 10px;
+    }
+}
+
+
+@media(max-width: 350px){
+    .logoPc{
+        width: 150px;
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wgt@400:514&display=swap");
+* {
+  color: white;
+  box-sizing: border-box;
+}
+
+.container00 {
+  display: flex;
+  min-height: 160vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.header{
+  display: flex;  
+  padding: 10px 25px;
+  font-weight: 700;
+  background-color:transparent;
+}
+ul {
+  list-style-type: none
+}
+
+ul li a.buttonHeader {
+    display: flex;
+    font-size: 30px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: transparent;
+    color:red;
+    text-decoration: none;
+  }
+  
+  .buttonHeader:hover{
+    color:whitesmoke;
+    cursor: pointer;
+    border: 4px solid  #ff0044;
+    transition: 0.2s;
+}
+
+
+.arrowDown {
+  display: inline-block;
+  width: 150px;
+  margin-top: 230px;
+}
+
+#logo {
+  width: 540px;
+  height: 200px;
+  margin-right: 100px;
+}
+
+.h1 {
+  color: red;
+  font-weight: 700;
+  font-size: 4em;
+  text-shadow: 5px 6px 7px white;
+}
+
+.btn {
+  color: red;
+  padding: 15px 35px;
+  border: 2px solid;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 1.3em;
+
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+
+.container00.container01 {
+  background-image: url(../../image/transformersCapa.jpg);
+  
+}
+.container00.container02 {
+  background-image: url(../../image/transformers2.jpg);
+}
+.container00.container03 {
+  background-image: url(../../image/transformers3.jpg);
+}
+.container00.container04 {
+  background-image: url(../../image/transformers4.jpg);
+}
+
+.titlePadding {
+  padding-top: 200px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: 25px;
+}
+
+
+@media (max-width: 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: -15px;
+  }
+}
+
+@media (max-width: 405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 449px) {
+  
+  .downloadDesc button {
+    border: 2px solid white;
+    margin: 10px 0px;
+  }
+  .container00.container01 {
+    background-image: url(../../image/transformersCapa.jpg);
+    
+  }
+}
+
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle, .mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 380px) {
+  .shortTitle, .mediumTitle {
+    width: auto;
+    font-size: 35px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
